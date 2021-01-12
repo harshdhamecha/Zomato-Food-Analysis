@@ -1,0 +1,89 @@
+{% extends 'shop/basic.html' %}
+
+{% block title%} Search Results - Abraca Data{% endblock %}
+
+
+{% block css %}
+
+
+
+.carousel-indicators .active {
+background-color: blue;
+}
+
+
+body .carousel-indicator li{
+background-color: blue;
+}
+body .carousel-indicators{
+bottom: 0;
+}
+.carousel-indicators li {
+
+
+    background-color: #7270fc;
+}
+body .carousel-control-prev-icon,
+body .carousel-control-next-icon{
+background-color: blue;
+}
+.carousel-control-prev,
+.carousel-control-next{
+top: auto;
+bottom: auto;
+padding-top: 222px;
+}
+body .no-padding{
+padding-left: 0,
+padding-right: 0;
+}
+{% endblock %}
+{% block body %}
+{% load static %}
+<div class="container">
+    <!--Slideshow starts here -->
+    {% for product, range, nSlides in allProds %}
+    <h5 class="my-4">{{product.0.category}} Analysis</h5>
+    
+            
+
+                    
+                    <div class="row row-cols-1 row-cols-md-2">
+                        {% for i in product %}
+                    <div class="col-md-6 col-xs-12 col-sm-6">
+                   
+                    
+                
+  <div class="col mb-4">
+    <div class="card">
+      <img src='/media/{{i.image}}' class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title" id="namepr{{i.id}}">{{i.product_name}}</h5>
+       <p class="card-text">{{i.desc|slice:"0:53"}}...</p>
+                               
+      </div>
+    </div>
+  </div>
+        </div>  
+         {% endfor %}</div>        
+                    
+          
+        
+        
+    
+    {% endfor %}
+</div>
+{% endblock %}
+{% block js %}
+<script>
+
+{% if msg|length != 0 %}
+alert('{{msg}}');
+window.location.href = "/"
+{% endif %}
+</script>
+{% endblock %}
+
+
+
+
