@@ -1,2 +1,2 @@
 # Zomato-Food-Analysis
-This repo contains the Power BI report which I made from the Zomato India datasets and the basic website for the same.
+The **Zomato Food Analysis** project aims to provide an analysis of Zomato Food Datasets(Hotels of Different cities of India). In this repo, you'll find a precise and perfect Power BI report and the website built using Django.
