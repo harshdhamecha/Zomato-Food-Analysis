@@ -10,7 +10,7 @@ As you can see in [this](Datasets/Raw-Datasets/Ahmedabad/1-Ahmedabadhotels.csv) 
 As you can see in [this](Datasets/Raw-Datasets/Ajmer/18-Ajmerhotels.csv) file, columns like *RATING*, *RATING_TYPE* contains some values like `None`, `Opening`, `NEW`, `Not rated` etc. Thus, we've handle this values and finally merged all the files of each cities into one single file. See [this](/Datasets/Processed-Datasets/Cities.csv) reference file. Note that I've include only two cities data in the reference file.
  
  ## Power-BI Report
- You can have a look at the Power-BI report [here](https://app.powerbi.com/view?r=eyJrIjoiZmI4YzZlMDktNjg4ZS00MzJiLTllOWUtMzNkOGYzNWI3ZjdmIiwidCI6ImMxM2U1MTgxLTlkMTItNDIwYS04MmNjLTBkMWRlODU2ZDY2YiJ9) and try different filters according to your need.
+ We have added different graphs, cards, tables, filters, etc. You can have a look at the Power-BI report [here](https://app.powerbi.com/view?r=eyJrIjoiZmI4YzZlMDktNjg4ZS00MzJiLTllOWUtMzNkOGYzNWI3ZjdmIiwidCI6ImMxM2U1MTgxLTlkMTItNDIwYS04MmNjLTBkMWRlODU2ZDY2YiJ9) and try different filters as per your need. Feel free to try different cities, regions and cuisine types.
 
 
 In case if it's not accessible, I am attaching the following snap-shot for reference.
