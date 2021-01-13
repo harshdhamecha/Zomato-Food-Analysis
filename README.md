@@ -1,5 +1,5 @@
 # Zomato-Food-Analysis
-The **Zomato Food Analysis** project aims to provide an analysis of Zomato Food Datasets(Hotels of Different cities of India). In this repo, you'll find a precise and perfect Power BI report and the website built using Django. You can have a look at the website [here](https://zomato.pythonanywhere.com/). [This](https://www.youtube.com/watch?v=A6mTN6G-adM&t=307s) is the reference for Hosting tutorial.  
+The **Zomato Food Analysis** project aims to provide an analysis of Zomato Food Datasets(Hotels of Different cities of India). In this repo, you'll find a precise and interactive Power BI report and the website built using Django. You can have a look at the website [here](https://zomato.pythonanywhere.com/). [This](https://www.youtube.com/watch?v=A6mTN6G-adM&t=307s) is the reference for Hosting tutorial.  
 
 ## Datasets
 We've got the datasets in the raw form as you can see [here](Datasets/Raw-Datasets) where we have the different folder for each cities(total around 80 cities) and the hotel details in `.csv` files for each cities, see [this](Datasets/Raw-Datasets/Ahmedabad) for reference.
@@ -10,10 +10,10 @@ As you can see in [this](Datasets/Raw-Datasets/Ahmedabad/1-Ahmedabadhotels.csv) 
 As you can see in [this](Datasets/Raw-Datasets/Ajmer/18-Ajmerhotels.csv) file, columns like *RATING*, *RATING_TYPE* contains some values like `None`, `Opening`, `NEW`, `Not rated` etc. Thus, we've handle this values and finally merged all the files of each cities into one single file. See [this](/Datasets/Processed-Datasets/Cities.csv) reference file. Note that I've include only two cities data in the reference file.
  
  ## Power-BI Report
- We have added different graphs, cards, tables, filters, etc. You can have a look at the Power-BI report [here](https://app.powerbi.com/view?r=eyJrIjoiZmI4YzZlMDktNjg4ZS00MzJiLTllOWUtMzNkOGYzNWI3ZjdmIiwidCI6ImMxM2U1MTgxLTlkMTItNDIwYS04MmNjLTBkMWRlODU2ZDY2YiJ9) and try different filters as per your need. Feel free to try different cities, regions and cuisine types.
+ We have added different graphs, cards, tables, filters, etc. You can have a look at the interactive Power-BI report [here](https://app.powerbi.com/view?r=eyJrIjoiZmI4YzZlMDktNjg4ZS00MzJiLTllOWUtMzNkOGYzNWI3ZjdmIiwidCI6ImMxM2U1MTgxLTlkMTItNDIwYS04MmNjLTBkMWRlODU2ZDY2YiJ9) and try different filters as per your need. Feel free to try different cities, regions and cuisine types.
 
 
-In case if it's not accessible, I am attaching the following snap-shot for reference.
+In case if above link isn's not accessible, I am attaching the following snap-shot for reference.
 
 
 ![](Power-BI-Report/snapshot.JPG)
