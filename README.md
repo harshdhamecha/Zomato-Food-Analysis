@@ -14,4 +14,6 @@ As you can see in [this](Datasets/Raw-Datasets/Ajmer/18-Ajmerhotels.csv) file, c
 
 
 In case if it's not accessible, I am attaching the following snap-shot for reference.
+
+
 ![](Power-BI-Report/snapshot.JPG)
