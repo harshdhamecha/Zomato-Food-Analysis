@@ -13,7 +13,7 @@ As you can see in [this](Datasets/Raw-Datasets/Ajmer/18-Ajmerhotels.csv) file, c
  We have added different graphs, cards, tables, filters, etc. You can have a look at the interactive Power-BI report [here](https://app.powerbi.com/view?r=eyJrIjoiZmI4YzZlMDktNjg4ZS00MzJiLTllOWUtMzNkOGYzNWI3ZjdmIiwidCI6ImMxM2U1MTgxLTlkMTItNDIwYS04MmNjLTBkMWRlODU2ZDY2YiJ9) and try different filters as per your need. Feel free to try different cities, regions and cuisine types.
 
 
-In case if above link isn's not accessible, I am attaching the following snap-shot for reference.
+In case if above link isn't accessible, I am attaching the following snap-shot for reference.
 
 
 ![](Power-BI-Report/snapshot.JPG)
